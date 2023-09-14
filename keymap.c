@@ -316,7 +316,7 @@ static void render_anim(void) {
         oled_on(); // not essential but turns on animation OLED with any alpha keypress
         if(timer_elapsed32(anim_timer) > ANIM_FRAME_DURATION) {
             anim_timer = timer_read32();
-            animation_phase()
+            animation_phase();
         }
         anim_sleep = timer_read32();
     } else {
