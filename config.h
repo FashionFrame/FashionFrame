@@ -17,7 +17,8 @@
 
 #pragma once
 
-#define EE_HANDS
+#define EE_HANDS 
+#define MASTER_LEFT
 
 /* clear default encoder def */
 #undef TAP_CODE_DELAY
